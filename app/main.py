@@ -451,12 +451,11 @@ def main():
             key_sensors = ['s4', 's11', 's12', 's15', 's17', 's20', 's21']
             available = [s for s in key_sensors if s in engine_df.columns]
             cols = st.columns(2)
-            for i, sensor in enumerate(available):
+          for i, sensor in enumerate(available):
     with cols[i % 2]:
         st.markdown(f'<p style="color:#8899AA;font-size:0.8rem;letter-spacing:1px;">{sensor.upper()}</p>', unsafe_allow_html=True)
         st.plotly_chart(plot_sensor_trend(engine_df, sensor), use_container_width=True, config={'displayModeBar': False}, key=f"sensor_{sensor}")
-            
-
+        
     elif st.session_state.df_raw is None:
         # Початковий стан — підказка
         st.markdown("""
