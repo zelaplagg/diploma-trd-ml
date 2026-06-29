@@ -148,9 +148,7 @@ python src/predict.py --input data/demo.csv
 
 ## Screenshots
 
-<!-- TODO: add screenshots of the Streamlit app -->
-<!-- ![Web app](docs/screenshot_app.png) -->
-<!-- ![Prediction result](docs/screenshot_result.png) -->
+<img width="2940" height="1496" alt="image" src="https://github.com/user-attachments/assets/95c6b0a1-04e7-4777-a78f-a4988a115ce3" />
 
 ---
 
@@ -169,12 +167,3 @@ Bachelor of Computer Systems Engineering — Igor Sikorsky Kyiv Polytechnic Inst
 
 - GitHub: [zelaplagg](https://github.com/zelaplagg)
 - LinkedIn: [Anastasiia Zelenska](https://www.linkedin.com/in/anastasiia-zelenska-50404a27a)
-
----
-
-## License
-
-This project is released under the MIT License. See the [LICENSE](LICENSE) file for
-details.
-
-<!-- If you prefer not to use MIT, remove this section or pick another license. -->
